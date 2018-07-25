@@ -144,7 +144,7 @@ def mergePicture1():
             for y in range(y1 + n*y_, y1 + (n+1)*y_):             
                 imlist = []
                 for x in range(x1 + m*x_, x1 + (m+1)*x_):     
-                    file = 'data1/%s.jpg' %( str(x) + '****' + str(y))
+                    file = '../data1/%s.jpg' %( str(x) + '****' + str(y))
     #                print(file)
                     img = Image.open(file)       
                     imlist.append(img)
